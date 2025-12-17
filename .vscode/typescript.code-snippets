@@ -1,0 +1,19 @@
+{
+  "TanStack Router File Route": {
+    "prefix": "troute",
+    "scope": "typescript,typescriptreact",
+    "body": [
+      "import { createAutoFileRoute } from '@/lib/utils';",
+      "",
+      "export const Route = createAutoFileRoute(import.meta.url)({",
+      "  component: ${2:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Page},",
+      "});",
+      "",
+      "function ${2:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}Page}() {",
+      "  const {} = Route.useParams();",
+      "  return <div>$3</div>;",
+      "}",
+    ],
+    "description": "Create TanStack Router file route with complete auto generation",
+  },
+}
