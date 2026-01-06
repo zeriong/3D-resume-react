@@ -1,4 +1,4 @@
-import { createAutoFileRoute } from "@/shared/utils/tanstack-router";
+import { createAutoFileRoute } from "@/shared/libs/tanstack-router";
 
 import ReactLogo from "@/shared/assets/react.svg?react";
 
